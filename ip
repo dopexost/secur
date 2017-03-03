@@ -1,0 +1,10 @@
+iface eth0 inet6 static
+pre-up modprobe ipv6
+address 2a02:408:8093:fff2::с/64
+netmask 64
+gateway 2a02:408:8093:fff2::1
+
+# Start IPv6 secondary additional IP configuration
+# up /sbin/ifconfig eth0 inet6 add 2607:f0d0:2001:000a::3/64
+# up /sbin/ifconfig eth0 inet6 add 2607:f0d0:2001:000a::4/64
+

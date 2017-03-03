@@ -1,0 +1,12 @@
+auth_pass 
+#df5   
+str_rot13  
+Your IP * 
+s20=strtoupper 
+\[\$GLOBALS\[ 
+ob_start(); var_dump
+eval(eval 
+ver{ 
+\.chr\( 
+fs_login_session 
+
